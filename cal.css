@@ -1,0 +1,116 @@
+body {
+    font-family: Roboto;
+    background: #ffffff;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, rgb(235, 4, 235), #1b610a);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right,#ebf5d0,#cbf7c0,#ecb8bf,#d3b3ec,#d3b3ec);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+
+  #head{
+    height: 325px;
+    width: 250px;
+    margin: 100px auto ;
+    margin-bottom: 5px;
+    background: #f7f7f7;
+    box-shadow: 0 0 3px rgba(46, 45, 46, 0.986);
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    
+  }
+
+  h1 {
+    background: #f5c1d1;
+    color: rgb(15, 15, 15);
+    margin: 0;
+    padding: 10px 10px;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: normal;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    text-align: center;
+  }
+
+  p{
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 15px ;
+    
+  }
+
+  input[type="text"] {
+    padding-left: 10px;
+    text-align: center;
+    background-color: rgb(220, 241, 218);
+    
+   }
+
+  input[type="text"]:hover{
+    background: #fad2e9;
+   
+  }
+  input :focus{
+      text-align: center;
+      
+  }
+
+  button {
+    text-align: center;
+    background: #ffffff;
+    border-radius:40%;
+  
+  }
+
+  button:hover {
+    background: #fad2e9;
+   
+  }
+  
+  button:active {
+    position: relative;
+    top: 1px;
+  }
+
+  #total {
+    font-size: 30px;
+    margin-top: 5px;
+    text-align: center;
+  }
+
+h2{
+    color: #4c2827;
+    font-size: 15px;
+    margin-top: 5px;
+    text-align: center;
+}
+
+#num1{
+    color: rgb(12, 117, 12);
+    text-align: center;
+    font-size: 13px;
+    font-weight: 1000;
+    }
+
+#num2{
+    color: darkslateblue;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 1000;
+}
+#clr{
+  background-color: rgb(247, 247, 192);
+  color: #2b292a;
+  font-size: 15px;
+  font-weight: 50px;
+  width: 60px;
+  height:30px ;
+  opacity: 1;
+}
+
+#clr :hover{
+  background: #2b292a;
+  opacity: 0.5;
+}

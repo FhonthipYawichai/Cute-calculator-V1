@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dino Calculator Version 1</title>
+    <link rel="stylesheet" href="cal.css">
+</head>
+<center>
+<body>
+    <div id="head">
+        <h1>Dino Calculator</h1>
+            <div id="calculate">
+                <form>
+                    <p>
+                        Number:1
+                        <input id="num1" type="text" placeholder="0">
+                    </p>
+
+                    <p>
+                        Number:2
+                        <input id="num2" type="text" placeholder="0">
+                    </p>
+
+                </form>
+
+                <h2>Select your option</h2>
+
+                <button id="add" type="button" onclick="Caladdition()">
+                    &nbsp<img src="add.png" height="25px">&nbsp
+                </button>
+                <button id="sub" type="button"  onclick="Calsubtraction()">
+                    &nbsp<img src="sub.png" height="25px">&nbsp
+                </button>
+                <button id="multi" type="button" onclick="Calmultiplication()">
+                    &nbsp<img src="mul.png" height="25px">&nbsp
+                </button>
+                <button id="divis" type="button"  onclick="Caldivision()">
+                    &nbsp<img src="divis.png" height="25px">&nbsp
+                </button>
+
+                <div id="total">
+                    <span id="totalresult"></span>
+                </div>
+
+                </div>
+                    
+                <div>
+                    <button id="clr" name="bclr" type="button" onclick="Clear()">Clear</button>
+                </div>
+                
+            </div>
+            
+            
+        </div>
+        
+
+<script type="text/javascript" src="cal.js"></script>
+</body>
+
+</center>
+</html>
